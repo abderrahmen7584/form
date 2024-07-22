@@ -1,0 +1,55 @@
+body{
+    background-image: url("loginbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    margin: auto;
+    overflow: hidden;
+    
+    height:150%;
+}
+form{
+    align-self: center;
+    display:inline-block;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px; 
+    margin: 200px auto ; 
+    padding: 20px; 
+    background-color: rgba(18, 10, 10, 0.5);
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+input{
+    height: 40px;
+    box-sizing: border-box;
+    width:500px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+label{
+    display:inline-block;
+    font-weight: bold;
+    font-size: large;
+    font-family: Times,'Times New Roman', serif ;
+    color: white;
+}
+input[type=button]{
+    border:solid 1px;
+    
+    font-family: Times,'Times New Roman', serif ;
+    font-weight: bold;
+    background-color: rgb(9, 146, 91);
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+h1{
+    font-family: Times,'Times New Roman', serif ;
+    color: white;
+}
